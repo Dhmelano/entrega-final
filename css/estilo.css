@@ -1,16 +1,20 @@
  /* encabezado y sus hijos */
+ *{
+    margin: 0;
+    padding: 0;
+ }
 .encaBezado {
     display: flex;
     justify-content: space-between;
     background-color: #37765a;
-    grid-area: encabezado;
     position: sticky;
     top: 0;
+    width: 100%;
 
 }
 
 .hijoLogo {
-    width: 150px;
+    width: 8rem;
     margin-left: 350px;
     color: #7a0f0f;
 
@@ -19,8 +23,10 @@
 .hijoH1 {
     margin-right: 350px;
     margin-top: 50px;
+    margin-left: 50px;
     color: #000000;
     font-family: Impact;
+    font-size: 150%;
 }
 
 .hijoBoton {
@@ -48,7 +54,8 @@
 
     display: flex;
     justify-content: center;
-    grid-area: portada;
+    width: 100%;
+   
 
 
 }
@@ -58,26 +65,38 @@
     object-fit: cover;
 }
 /* barra de menu */
-nav ul li {
-    display: inline;
-    justify-content: center;
-
-    border: solid rgb(163, 7, 7);
-    color: #7a0f0f;
-    background-color: #37765a;
-    grid-area: listamenu;
-
-}
-
 .contenedorMenu {
-    grid-area: listamenu;
+    height: 60px;
+    background-color: #000000;
 }
+nav ul li {
+    display: inline-block; 
+    background-color: #37765a;    
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+li {
+    margin: 1rem;
+    text-align: center;
+}
+
+
 /* contenedor productos y sus hijos */
 .contenedorProductos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+    
 }
+   
 .hijoProductos {
     
     display: flex;
@@ -108,6 +127,7 @@ nav ul li {
     padding: 10px;
     background-color: #37765a;
     cursor: pointer;
+    margin-top:10px;
 
 }
 /* contenedor galeria de productos e hijos*/
@@ -159,28 +179,36 @@ p {
     justify-content: center;
 
 }
+/* Footer */
 footer {
     background-color: #37765a;
-       
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+footer p {
+    color: black;
+    font-size: 70%;
+    text-align: center;
+    font-family: cursive;
+    
+    
+}
+.pHijo{
+    justify-content: center;
+    align-items: center;
 }
 .textoPie {
     color: black;
 }
-.loremrelleno {
-    color: #7a0f0f;
-}
+/* html contactos */
 
-a {
-    text-decoration: none;
-    color: black;
-}
-li {
-    margin: 20px;
-    
-}
+
 .subTitulo {
     text-align: center;
     color: #37765a;
+    font-size: 2rem;
+    margin-top: 6%;
 }
 
 h5 {
@@ -192,9 +220,6 @@ h5 {
     display: flex;
     flex-direction: column;
     color: #37765a;
-
-    
-
 }
 /* css servicio tecnico */
 
@@ -203,10 +228,50 @@ h5 {
     font-size: 20px;
 }
 
-@media (min-width:340px)and(max-width:600px) {
+@media(max-width:600px) {
     .contenedorProductos {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        
        
+    }
+
+    .encaBezado {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .hijoLogo {
+        
+        justify-content: center;
+        order: inherit;
+        margin: 0;
+        
+        
+    }
+    .hijoH1 {
+        text-align: center;
+              
+        margin: 0;
+    }
+    .imgPortada{
+        display: none;
+    }
+    .hijoBoton {
+        margin: 0;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    nav ul {
+        display:flex;
+    }
+    li {
+        margin: 0px;
+    }
+    .pDescripcion {
+        text-align: justify;
+        font-size: 1rem;
     }
 }
 
