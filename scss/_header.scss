@@ -1,0 +1,40 @@
+.encaBezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: #37765a;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+.hijoLogo {
+    width: 8rem;
+    margin-left: 200px;
+    color: #7a0f0f;
+    justify-self: flex-end;
+}
+
+.hijoH1 {
+    margin-right: 200px;
+    color: #000000;
+    font-family: Impact;
+    font-size: 150%;
+    justify-self: center;
+    align-self: center;
+}
+
+.hijoBoton {
+    padding: 5px 5px;
+    font-size: 1rem;
+    margin: 60px 100px 30px 30px;
+    color: #37765a;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.boton {
+   background-color: #37765a;
+}

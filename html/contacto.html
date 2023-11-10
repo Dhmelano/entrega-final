@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Atencion telefonica de lunes a viernes de 8hs a 19hs, visita nuestro local ante cuaquier duda o consulta">
+    <meta name="description"
+        content="Atencion telefonica de lunes a viernes de 8hs a 19hs, visita nuestro local ante cuaquier duda o consulta">
     <title>Contactos -- Spider-Vaper</title>
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../multimedia/araña-removebg-preview.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body class="fondo">
-    
+
     <header class="encaBezado">
         <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
 
@@ -20,9 +23,23 @@
             <button class="hijoBoton">tienda</button>
         </div>
     </header>
-    
-    
+
+
     <div class="contenedorMenu">
+
+        <div class="dropdown menuDesplegable">
+            <button class="btn btn-secondary dropdown-toggle boton" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                menu
+            </button>
+            <ul class="dropdown-menu fonMenu">
+                <li><a class="dropdown-item" href="../index.html">INICIO</a></li>
+                <li><a class="dropdown-item" href="tienda.html">TIENDA</a></li>
+                <li><a class="dropdown-item" href="servtecnico.html">SERVICIO TECNICO</a></li>
+                <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+                <li><a class="dropdown-item" href="carrito.html">CARRITO</a></li>
+            </ul>
+        </div>
         <nav>
             <ul>
                 <li><a href="../index.html">INICIO</a></li>
@@ -31,7 +48,7 @@
                 <li><a href="contacto.html">CONTACTO</a></li>
                 <li><a href="carrito.html">TU CARRITO</a></li>
             </ul>
-        </nav>  
+        </nav>
     </div>
 
     <main>
@@ -44,8 +61,8 @@
             <h5>4899-9001</h5>
 
         </div>
-        
-       <div> 
+
+        <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.044718430843!2d-58.42944373561267!3d-34.60387881083747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1696307718389!5m2!1ses-419!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -55,7 +72,7 @@
 
     </main>
 
- 
+
     <footer>
         <div class="pHijo">
             <p>la lista de precios se actualizará a diario con el fin de no aventurar precios al azar...
@@ -75,7 +92,9 @@
             </p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
