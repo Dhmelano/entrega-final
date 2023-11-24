@@ -15,11 +15,14 @@
 
 <body class="fondo">
     <header class="encaBezado">
-        <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+        <div class="conLogo">
+           <a href="../index.html"> <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+           </a>
+        </div>
 
-        <h1 class="hijoH1">Spider-Vaper</h1>
+        <a class="hijoH1" href="../index.html"><h1>Spider-Vaper</h1></a> 
         <div>
-            <button class="hijoBoton">tienda</button>
+            <a href="html/tienda.html"> <button class="hijoBoton hijoBotonmedias">tienda</button> </a>
         </div>
     </header>
 
@@ -55,7 +58,7 @@
     <main>
 
         <h2 class="contH5">Servicios</h2>
-        <div class="d-flex align-content-center ml-5">
+        <div class="d-flex align-content-center ml-5 contLi">
             <ul class="stContenedor">
                 <li>reparacion de equipos</li>
                 <li>mantenimiento y limpieza</li>
@@ -66,21 +69,24 @@
        
 
         <h3 class="contH5">Escribanos y nos comunicaremos</h3>
-        <form class="contH5" >
-            <label for="nombre">Nombre y apellido</label>
-            <br>
-            <input type="text" id="nombre">
-            <br>
-            <label for="telefono">N° telefono</label>
-            <br>
-            <input type="number" id="number">
-            <br>
-            <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui el motivo de su consulta"></textarea>
-            <br>
-            <input type="submit">
+        <div class="divFrom">
+        
+            <form class="contH5 contFrom" >
+                <label for="nombre">Nombre y apellido</label>
+                <br>
+                <input type="text" id="nombre">
+                <br>
+                <label for="telefono">N° telefono</label>
+                <br>
+                <input type="number" id="number">
+                <br>
+                <br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui el motivo de su consulta"></textarea>
+                <br>
+                <input type="submit">
 
-        </form>
+            </form>
+        </div>
 
     </main>
 
@@ -97,8 +103,8 @@
                 todos nuestros productos son nuevos, originales y con garantía
             </p>
         </div>
-        <div class="pHijo">
-            <img src="" alt="">
+        <div class="pHijo phijoEnvio">
+            <img class="logoEnvio" src="../multimedia/logo envio.png" alt="logo de envio">
             <p>
                 Envios a todo el pais
             </p>

@@ -1,0 +1,45 @@
+.subTitulo {
+    text-align: center;
+    color: $color-verde;
+    font-size: 2rem;
+    margin-top: 6%;
+}
+
+.contH5 {
+    display: flex;
+    flex-direction: column;
+    color:$color-verde;
+    width: 50%;
+    text-align: center;
+    margin: 0% 0% 10% 0%;
+    width: 80%;
+}
+
+.conContactos {
+    margin-left: 8%;
+}
+
+.logoContacto {
+    img {
+        width: 40px;
+    }
+
+    display: flex;
+    margin: 3%;
+}
+
+.h5Contacto {
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 4%;
+    justify-content: space-between;
+}
+
+.contIframe {
+    margin-left: 10%;
+    width: 100%;
+}
+
+.iFrame {
+    width: 80%;
+}

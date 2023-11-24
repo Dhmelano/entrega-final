@@ -1,11 +1,12 @@
 .encaBezado {
     display: flex;
     justify-content: space-between;
-    background-color: #37765a;
+    background-color: $color-verde;
     position: sticky;
     top: 0;
     width: 100%;
-
+    margin: 0;
+    padding: 0;
 }
 
 .hijoLogo {
@@ -16,25 +17,21 @@
 }
 
 .hijoH1 {
-    margin-right: 200px;
-    color: #000000;
+    margin-right: 100px;
+    color: $color-negro;
     font-family: Impact;
     font-size: 150%;
     justify-self: center;
     align-self: center;
+    text-decoration: none;
 }
 
 .hijoBoton {
     padding: 5px 5px;
     font-size: 1rem;
     margin: 60px 100px 30px 30px;
-    color: #37765a;
-    background-color: rgb(0, 0, 0);
+    color: $color-verde;
+    background-color: $color-negro;
     text-transform: uppercase;
     border-radius: 5px;
-    cursor: pointer;
-
-}
-.boton {
-   background-color: #37765a;
 }

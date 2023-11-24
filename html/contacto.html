@@ -16,11 +16,14 @@
 <body class="fondo">
 
     <header class="encaBezado">
-        <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+        <div class="conLogo">
+           <a href="../index.html"> <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+           </a>
+        </div>
 
-        <h1 class="hijoH1">Spider-Vaper</h1>
+        <a class="hijoH1" href="../index.html"><h1>Spider-Vaper</h1></a> 
         <div>
-            <button class="hijoBoton">tienda</button>
+            <a href="html/tienda.html"> <button class="hijoBoton hijoBotonmedias">tienda</button> </a>
         </div>
     </header>
 
@@ -54,19 +57,32 @@
     <main>
         <h2 class="subTitulo">CONTACTANOS</h2>
 
-        <div class="contH5">
-            <h5>Spider_Vaper@gmail.com.ar</h5>
-            <h5>@spidervapers</h5>
-            <h5>+5491134789023</h5>
-            <h5>4899-9001</h5>
+        <div class="contH5 conContactos">
+            <div class="logoContacto">
+                <a href="https://www.google.com/intl/es-419/gmail/about/"><img src="../multimedia/logo gmail.png" alt="logo de gmail"></a>
+                <h5 class=" h5Contacto">Spider_Vaper@gmail.com.ar</h5>
+            </div>
+            <div class="logoContacto">
+                <a href="https://www.instagram.com/"><img src="../multimedia/logo insta.png"
+                    alt="logo de instagram"></a>
+                <h5 class=" h5Contacto">@spidervapers</h5>
+            </div>
+            <div class="logoContacto">
+                <img src="../multimedia/logo whatsapp.png" alt="logo de instagram">
+                <h5 class=" h5Contacto">+5491134789023</h5>
+            </div>
+            <div class="logoContacto">
+                <img src="../multimedia/logo telefono.png" alt="logo de instagram">
+                <h5 class=" h5Contacto">4899-9001</h5>
+            </div>
 
         </div>
 
-        <div>
+        <div class=" contIframe">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.044718430843!2d-58.42944373561267!3d-34.60387881083747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1696307718389!5m2!1ses-419!2sar"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+                referrerpolicy="no-referrer-when-downgrade" class="iFrame">
             </iframe>
         </div>
 
@@ -85,8 +101,8 @@
                 todos nuestros productos son nuevos, originales y con garantía
             </p>
         </div>
-        <div class="pHijo">
-            <img src="" alt="">
+        <div class="pHijo phijoEnvio">
+            <img class="logoEnvio" src="../multimedia/logo envio.png" alt="logo de envio">
             <p>
                 Envios a todo el pais
             </p>

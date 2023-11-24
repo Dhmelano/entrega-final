@@ -1,0 +1,38 @@
+
+@mixin anclas {
+    text-decoration: none;
+    color: $color-negro;
+}
+.contenedorMenu {
+    height: 60px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.menuDesplegable {
+    display: none;
+}
+
+nav ul li {
+    a {
+        @include anclas;
+        font-size: 20px;
+        padding: 4px;
+        font-size: 1rem;
+    }
+
+    display: inline-block;
+    background-color: $color-verde;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+li {
+    margin: 1rem;
+    text-align: center;
+}
+
+.boton {
+    background-color: $color-verde;
+}

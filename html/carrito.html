@@ -18,11 +18,14 @@
 
 
     <header class="encaBezado">
-        <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+        <div class="conLogo">
+           <a href="../index.html"> <img class="hijoLogo" src="../multimedia/araña-removebg-preview.png" alt="logo araña">
+           </a>
+        </div>
 
-        <h1 class="hijoH1">Spider-Vaper</h1>
+        <a class="hijoH1" href="../index.html"><h1>Spider-Vaper</h1></a> 
         <div>
-            <button class="hijoBoton">tienda</button>
+            <a href="html/tienda.html"> <button class="hijoBoton hijoBotonmedias">tienda</button> </a>
         </div>
     </header>
 
@@ -60,41 +63,75 @@
 
         <h2 class="contH5">Productos seleccionados</h2>
 
-        <div>
+        <div class="imgCarrito">
             <img class="compra1" src="../multimedia/producto2.jpeg" alt="imagen del producto">
 
 
         </div>
 
+        <div class="contenedorFormulario">
+           
+            <form class="stContenedor">
+            
+                <div>
+                    <h4 class="h4Carrito">ingrese los datos de su tarjeta :</h4>
+                    <label for="Tarjeta">N° de tarjeta</label>
+                    <br>
+                    <input type="number" id="number">
+                    <br>
+                    <label for="nombre">Nombre y apellido</label>
+                    <br>
+                    <input type="text" id="nombre">
+                    <br>
+                    <label for="vencimiento">vencimiento de la tarjeta</label>
+                    <br>
+                    <input type="number" id="number">
+                    <br>
+                    <label for="codigo">codigo de seguridad</label>
+                    <br>
+                    <input type="number" id="number">
+                    <br>
+                </div>
+              
 
-        <form class="stContenedor">
-            <h4>seleccione su forma de pago</h4>
-            <label for="Tarjeta">N° de tarjeta</label>
-            <br>
-            <input type="number" id="number">
-            <br>
-            <label for="nombre">Nombre y apellido</label>
-            <br>
-            <input type="text" id="nombre">
-            <br>
-            <label for="vencimiento">vencimiento de la tarjeta</label>
-            <br>
-            <input type="number" id="number">
-            <br>
-            <label for="codigo">codigo de seguridad</label>
-            <br>
-            <input type="number" id="number">
-            <br>
+            </form>
+            <div class="medioDepago">
+                <div>
+                    <h5  class="medioH5">Medios de pago:</h5>
+                </div>
 
+                 <div class="contTarjetas">
+                    <div class="hijoTarjetas"><img src="../multimedia/taj visa.png" alt=""></div>
+                    <div class="hijoTarjetas"><img src="../multimedia/tarj master.png" alt=""></div>
+                    <div class="hijoTarjetas"><img src="../multimedia/mercado pago.png" alt=""></div>
+                    <div><img class="tarjNaranja" src="../multimedia/dadada.jpeg" alt=""></div>
+                </div>
+            </div>
 
-
-
-        </form>
-
-
-
+        </div>
 
     </main>
+
+    <!-- pie de la pagina -->
+    <footer>
+        <div class="pHijo">
+            <p>la lista de precios se actualizará a diario con el fin de no aventurar precios al azar...
+                La misma figurará con la fecha corriente en su título y los pedidos ya tomados mantendrán el precio
+                congelado sin sufrir cambios...
+            </p>
+        </div>
+        <div class="pHijo">
+            <p>
+                todos nuestros productos son nuevos, originales y con garantía
+            </p>
+        </div>
+        <div class="pHijo phijoEnvio">
+            <img class="logoEnvio" src="../multimedia/logo envio.png" alt="logo de envio">
+            <p>
+                Envios a todo el pais
+            </p>
+        </div>
+    </footer>
 
 
 

@@ -1,0 +1,39 @@
+.galeriaContenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hijoGaleria {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 70%;
+}
+
+.imgProd {
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.nombreProd {
+    color: $color-verde;
+    text-align: center;
+}
+
+.detallesProd {
+    font-size: 1rem;
+    text-align: center;
+    color: $color-verde;
+}
+
+.valorProd {
+    font-size: 1rem;
+    text-align: center;
+    color: $color-verde;
+    font-size: 20px;
+    font-weight: bolder;
+    border: solid;
+}

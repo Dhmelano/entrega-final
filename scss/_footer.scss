@@ -1,0 +1,26 @@
+.pHijo {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: $color-verde;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  
+    p {
+      color: $color-negro;
+      font-size: 70%;
+      text-align: center;
+      font-family: cursive;
+    }
+  }
+  
+  .phijoEnvio {
+    display: flex;
+  }
+  
+  .logoEnvio {
+    width: 30%;
+  }
