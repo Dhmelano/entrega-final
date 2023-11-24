@@ -203,153 +203,8 @@
   height: 94%;
 }
 
-@media (max-width: 800px) {
-  .contenedorProductos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 90%;
-    margin-left: 5%;
-  }
-  .galeriaContenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .encaBezado {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-  .conLogo {
-    justify-content: center;
-  }
-  .contH5 {
-    width: 80%;
-  }
-  .hijoBoton {
-    margin: 0%;
-  }
-  .hijoBotonmedias {
-    display: none;
-  }
-  .hijoH1 {
-    margin: 0%;
-    margin-bottom: 2%;
-  }
-  .hijoLogo {
-    margin: 0%;
-    width: 20%;
-    height: 5%;
-  }
-  .contenedorFormulario {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    text-align: center;
-  }
-  li {
-    margin: 1px;
-  }
-  .hijoGaleria img {
-    width: 200px;
-  }
-  .hijoGaleria h3 {
-    font-size: 1rem;
-  }
-  .contenedorMenu {
-    width: 100%;
-  }
-  .medioH5 {
-    font-size: 100%;
-  }
-  .detallesProd {
-    height: 100%;
-  }
-  .nombreProd {
-    height: 100%;
-    font-size: 100px;
-  }
-  nav ul {
-    margin-top: 10px;
-    padding: 0%;
-  }
-  .contTarjetas {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 480px) {
-  .contenedorProductos {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .encaBezado {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-  .hijoLogo {
-    justify-content: center;
-    order: inherit;
-    margin: 0;
-  }
-  .hijoH1 {
-    text-align: center;
-    margin: 0;
-  }
-  .imgPortada {
-    display: none;
-  }
-  .hijoBoton {
-    margin: 0;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-  nav ul {
-    display: flex;
-    width: 100%;
-  }
-  li {
-    margin: 0px;
-  }
-  .pDescripcion {
-    text-align: justify;
-    font-size: 1rem;
-  }
-  .contH5 {
-    width: 70%;
-  }
-  .contFooter {
-    height: 10px;
-  }
-  .contenedorMenu nav {
-    display: none;
-  }
-  .menuDesplegable {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #37765a;
-  }
-  .fonMenu {
-    background-color: #37765a;
-  }
-  .galeriaContenedor {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .contenedorFormulario {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 10%;
-    text-align: center;
-  }
-  .medioDepago {
-    width: 90%;
-    margin: 0;
-  }
-}
+
+
 .pHijo {
   justify-content: center;
   align-items: center;
@@ -481,6 +336,155 @@ li {
   background-color: #37765a;
   cursor: pointer;
   margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .galeriaContenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .encaBezado {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .conLogo {
+    justify-content: center;
+  }
+  .contH5 {
+    width: 80%;
+  }
+  .hijoBoton {
+    margin: 0%;
+  }
+  .hijoBotonmedias {
+    display: none;
+  }
+  .hijoH1 {
+    margin: 0%;
+    margin-bottom: 2%;
+  }
+  .hijoLogo {
+    margin: 0%;
+    width: 20%;
+    height: 5%;
+  }
+  .contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  li {
+    margin: 1px;
+  }
+  .hijoGaleria img {
+    width: 200px;
+  }
+  .hijoGaleria h3 {
+    font-size: 1rem;
+  }
+  .contenedorMenu {
+    width: 100%;
+  }
+  .medioH5 {
+    font-size: 100%;
+  }
+  .detallesProd {
+    height: 100%;
+  }
+  .nombreProd {
+    height: 100%;
+    font-size: 100px;
+  }
+  nav ul {
+    margin-top: 10px;
+    padding: 0%;
+  }
+  .contTarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedorProductos {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .encaBezado {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .hijoLogo {
+    justify-content: center;
+    order: inherit;
+    margin: 0;
+  }
+  .hijoH1 {
+    text-align: center;
+    margin: 0;
+  }
+  .imgPortada {
+    display: none;
+  }
+  .hijoBoton {
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  nav ul {
+    display: flex;
+    width: 100%;
+  }
+  li {
+    margin: 0px;
+  }
+  .pDescripcion {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .contH5 {
+    width: 70%;
+  }
+  .contFooter {
+    height: 10px;
+  }
+  .contenedorMenu nav {
+    display: none;
+  }
+  .menuDesplegable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37765a;
+  }
+  .fonMenu {
+    background-color: #37765a;
+  }
+  .galeriaContenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contenedorFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    text-align: center;
+  }
+  .medioDepago {
+    width: 90%;
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
