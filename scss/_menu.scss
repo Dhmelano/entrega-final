@@ -7,7 +7,7 @@
     height: 60px;
     background-color: #000000;
     display: flex;
-    justify-content: center;
+    justify-content: $centrar;
 }
 
 .menuDesplegable {
@@ -30,7 +30,7 @@ nav ul li {
 
 li {
     margin: 1rem;
-    text-align: center;
+    text-align: $centrar;
 }
 
 .boton {

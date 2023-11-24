@@ -22,7 +22,7 @@
     }
 
     .contH5 {
-        width: 80%;
+        width: $ancho-80;
     }
 
     .hijoBoton {
@@ -67,7 +67,7 @@
     }
 
     .contenedorMenu {
-        width: 100%;
+        width: $ancho-100;
     }
 
     .medioH5 {
@@ -129,7 +129,7 @@
 
     nav ul {
         display: flex;
-        width: 100%;
+        width: $ancho-100;
     }
 
     li {

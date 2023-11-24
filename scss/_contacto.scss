@@ -1,5 +1,5 @@
 .subTitulo {
-    text-align: center;
+    text-align: $centrar;
     color: $color-verde;
     font-size: 2rem;
     margin-top: 6%;
@@ -10,9 +10,9 @@
     flex-direction: column;
     color:$color-verde;
     width: 50%;
-    text-align: center;
+    text-align: $centrar;
     margin: 0% 0% 10% 0%;
-    width: 80%;
+    width: $ancho-80;
 }
 
 .conContactos {
@@ -37,9 +37,9 @@
 
 .contIframe {
     margin-left: 10%;
-    width: 100%;
+    width: $ancho-100;
 }
 
 .iFrame {
-    width: 80%;
+    width: $ancho-80;
 }

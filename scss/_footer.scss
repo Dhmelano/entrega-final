@@ -1,6 +1,6 @@
 .pHijo {
-    justify-content: center;
-    align-items: center;
+    justify-content: $centrar;
+    align-items: $centrar;
   }
   
   footer {
@@ -12,7 +12,7 @@
     p {
       color: $color-negro;
       font-size: 70%;
-      text-align: center;
+      text-align: $centrar;
       font-family: cursive;
     }
   }

@@ -1,9 +1,9 @@
 .contFrom {
-    width: 50%;
+    width: 30%;
 }
 
 .divFrom {
-    justify-content: center;
+    justify-content: $centrar;
     display: flex;
 }
 
@@ -15,5 +15,5 @@
 }
 
 .contLi {
-    justify-content: center;
+    justify-content: $centrar;
 }

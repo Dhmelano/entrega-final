@@ -1,7 +1,7 @@
 .imgCarrito {
     display: flex;
     margin-top: 5%;
-    justify-content: center;
+    justify-content: $centrar;
 }
 
 .h4Carrito {
@@ -10,10 +10,10 @@
 }
 
 .contenedorFormulario {
-    text-align: center;
+    text-align: $centrar;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: $centrar;
     width: 90%;
 }
 
@@ -45,6 +45,6 @@
 }
 
 .tarjNaranja {
-    width: 80%;
+    width: $ancho-80;
     height: 94%;
 }

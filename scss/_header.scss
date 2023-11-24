@@ -4,7 +4,7 @@
     background-color: $color-verde;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: $ancho-100;
     margin: 0;
     padding: 0;
 }
@@ -21,8 +21,8 @@
     color: $color-negro;
     font-family: Impact;
     font-size: 150%;
-    justify-self: center;
-    align-self: center;
+    justify-self: $centrar;
+    align-self: $centrar;
     text-decoration: none;
 }
 
